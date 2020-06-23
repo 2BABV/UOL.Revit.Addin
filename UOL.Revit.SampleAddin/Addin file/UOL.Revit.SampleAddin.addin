@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>UOL Revit SampleAddin</Name>
+    <Assembly>.BuildPathHere.\UOL.Revit.SampleAddin.dll</Assembly>
+    <AddInId>e873ac3b-d2bd-4ab9-a3f1-4bcfad06b5f2</AddInId>
+    <FullClassName>UOL.Revit.SampleAddin.ExternalApplication</FullClassName>
+    <VendorId>CDCA</VendorId>
+    <VendorDescription>Cadac Group, www.cadac.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

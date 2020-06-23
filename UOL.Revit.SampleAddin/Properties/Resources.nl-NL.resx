@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MessageBoxCadacContentDownloadError_Text" xml:space="preserve">
+    <value>Er is een onverwachte fout opgetreden tijdens het downloaden van het CAD bestand voor de selectie. Probeer het later opnieuw.</value>
+  </data>
+  <data name="MessageBoxCadContentNotFound_Text" xml:space="preserve">
+    <value>Binnen het UOB platform is geen CAD bestand beschikbaar voor de selectie.</value>
+  </data>
+  <data name="RibbonButtonSearchDescription" xml:space="preserve">
+    <value>Toevoegen</value>
+  </data>
+  <data name="RibbonButtonSearchLongDescription" xml:space="preserve">
+    <value>Geeft toegang tot de Uniforme Objecten Bibliotheek om te filteren en zoeken naar CAD objecten.</value>
+  </data>
+  <data name="RibbonButtonSearchTooltip" xml:space="preserve">
+    <value>Zoeken naar CAD objecten in de Uniforme Objecten Bibliotheek.</value>
+  </data>
+  <data name="RibbonName" xml:space="preserve">
+    <value>Uniforme Objecten Voorbeeld</value>
+  </data>
+  <data name="RibbonSearchPanel" xml:space="preserve">
+    <value>Uniforme Objecten</value>
+  </data>
+  <data name="MessageBoxCadContentLoadedCantPlace_Text" xml:space="preserve">
+    <value>Het geselecteerde CAD bestand is in het Revit project geladen, maar kan niet in de huidige view geplaatst worden.</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Uniforme Objecten Bibliotheek voor Revit</value>
+  </data>
+  <data name="MessageBoxCadContentIncomplete_Text" xml:space="preserve">
+    <value>Er kan geen CAD object worden aangemaakt, omdat het geselecteerde UOB object ontbrekende of incomplete gegevens bevat.</value>
+  </data>
+  <data name="MessageBoxCadPropertiesIncomplete_Text" xml:space="preserve">
+    <value>Er kan geen CAD object worden aangemaakt, omdat het geselecteerde UOB object niet alle benodigde eigenschappen bevat.</value>
+  </data>
+  <data name="RibbonButtonEditInstancesDescription" xml:space="preserve">
+    <value>Wijzigen</value>
+  </data>
+  <data name="RibbonButtonEditInstancesLongDescription" xml:space="preserve">
+    <value>Geeft toegang tot de Uniforme Objecten Bibliotheek en toont alleen de CAD objecten die overeenkomen met de geselecteerde CAD objecten.  
+Vervang de selectie door gewijzigde CAD objecten.</value>
+  </data>
+  <data name="RibbonButtonEditInstancesTooltip" xml:space="preserve">
+    <value>Selectie bijwerken via de Uniforme Objecten Bibliotheek</value>
+  </data>
+  <data name="MessageBoxMultipleTypesInSelectionNotAllowed_Text" xml:space="preserve">
+    <value>De selectie bevat meerdere familie typen. Er is maximaal één familie type toegestaan!
+Selecteer alleen instanties van eenzelfde familie type.</value>
+  </data>
+  <data name="MessageBoxSelectedElementIsNotUOLContent_Text" xml:space="preserve">
+    <value>Het geselecteerde element is geen UOB of bevat niet de juiste UOB gegevens om deze te wijzigen.</value>
+  </data>
+  <data name="MessageBoxECcodeMCcodeChangeNotAllowed_Text" xml:space="preserve">
+    <value>EtimClass en/of ModellingClass is gewijzigd, dit is niet toegestaan!</value>
+  </data>
+  <data name="MessageBoxNoContentSearched_Text" xml:space="preserve">
+    <value>Er is niet eerst gezocht, zoek eerst content voordat u gaat wijzigen.</value>
+  </data>
+  <data name="Buttons_Cancel" xml:space="preserve">
+    <value>ANNULEREN</value>
+  </data>
+  <data name="Buttons_Close" xml:space="preserve">
+    <value>AFSLUITEN</value>
+  </data>
+  <data name="Buttons_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="CaptionEmailExpected" xml:space="preserve">
+    <value>Onjuiste email</value>
+  </data>
+  <data name="MessageBoxEmailExpected" xml:space="preserve">
+    <value>Emailadres is ongeldig! Vul een geldig emailadres in alvorens u door kunt gaan.</value>
+  </data>
+  <data name="MessageBoxGetValidationsError_Text" xml:space="preserve">
+    <value>Fout tijdens het ophalen van validaties voor het actieve project.</value>
+  </data>
+  <data name="MessageBoxProcessValidationNoProjectId_Text" xml:space="preserve">
+    <value>Er is geen project Id aanwezig, dit is nodig om validaties op te halen. Controleer in de Project Informatie van het model, of het project Id in het veld ProjectNumber is ingevoerd.</value>
+  </data>
+  <data name="MessageBoxValidationDeleted_Text" xml:space="preserve">
+    <value>Ticket {0} is verwijderd.</value>
+  </data>
+  <data name="MessageBoxValidationDelete_Text" xml:space="preserve">
+    <value>Weet u zeker dat u ticket {0} wilt verwijderen?</value>
+  </data>
+  <data name="MessageBoxValidationNotDeleted_Text" xml:space="preserve">
+    <value>Verwijderen van ticket {0} is geannuleerd. Er is niets verwijderd.</value>
+  </data>
+  <data name="MessageBoxValidationProcessedErrors_Text" xml:space="preserve">
+    <value>Fouten tijdens verwerking: {0}</value>
+  </data>
+  <data name="MessageBoxValidationProcessed_Text" xml:space="preserve">
+    <value>Validatie resultaten van ticket {0} zijn toegevoegd aan {1} CAD objecten.</value>
+  </data>
+  <data name="MessageBoxValidationReportNotAvailable_Text" xml:space="preserve">
+    <value>Het validatie rapport voor ticket {0} is op dit moment niet beschikbaar!</value>
+  </data>
+  <data name="MessageBoxValidationRequestNotFound_Text" xml:space="preserve">
+    <value>De validatie aanvraag is niet toegankelijk!</value>
+  </data>
+  <data name="MessageBoxValidationRestart_Text" xml:space="preserve">
+    <value>Validatie van ticket {0} is opnieuw gestart.</value>
+  </data>
+  <data name="MessageBoxValidationResultNotAvailable_Text" xml:space="preserve">
+    <value>Er is geen validatie resultaat om te verwerken!</value>
+  </data>
+  <data name="ProcessValidation_Explanation" xml:space="preserve">
+    <value>In het model verwerkte validaties worden direct verwijderd op het UOB platform.
+Validaties blijven maximaal 30 dagen beschikbaar.</value>
+  </data>
+  <data name="ProcessValidation_ProcessErrorElement" xml:space="preserve">
+    <value>Element met Id: {0} kon niet worden verwerkt. Foutmelding: {1}.</value>
+  </data>
+  <data name="ProcessValidation_Processing" xml:space="preserve">
+    <value>Verwerken validatie resultaten...</value>
+  </data>
+  <data name="ProcessValidation_RefreshList" xml:space="preserve">
+    <value>Ververs de lijst met validatie aanvragen</value>
+  </data>
+  <data name="ProcessValidation_RequestDate" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="ProcessValidation_RequestStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="ProcessValidation_TicketNumber" xml:space="preserve">
+    <value>Ticketnummer</value>
+  </data>
+  <data name="ProcessValidation_Title" xml:space="preserve">
+    <value>Valideren &gt; Verwerken validatie</value>
+  </data>
+  <data name="ProcessValidation_TooltipDelete" xml:space="preserve">
+    <value>Verwijder validatie aanvraag</value>
+  </data>
+  <data name="ProcessValidation_TooltipProcess" xml:space="preserve">
+    <value>Verwerk validatie resultaten</value>
+  </data>
+  <data name="ProcessValidation_TooltipRefresh" xml:space="preserve">
+    <value>Ververs lijst met validatie resultaten</value>
+  </data>
+  <data name="ProcessValidation_TooltipReport" xml:space="preserve">
+    <value>Open rapport met validatie resultaten</value>
+  </data>
+  <data name="ProcessValidation_TooltipRestart" xml:space="preserve">
+    <value>Herstart validatie aanvraag</value>
+  </data>
+  <data name="ProcessValidation_ValidationResult" xml:space="preserve">
+    <value>% correct</value>
+  </data>
+  <data name="ProcessValidation_Validations" xml:space="preserve">
+    <value>Validaties</value>
+  </data>
+  <data name="RequestValidation_ActiveView" xml:space="preserve">
+    <value>Actieve view</value>
+  </data>
+  <data name="RequestValidation_ButtonSelection" xml:space="preserve">
+    <value>SELECTEREN</value>
+  </data>
+  <data name="RequestValidation_Description" xml:space="preserve">
+    <value>Omschrijving</value>
+  </data>
+  <data name="RequestValidation_EmailAddress" xml:space="preserve">
+    <value>Emailadres</value>
+  </data>
+  <data name="RequestValidation_NumberOfInstances" xml:space="preserve">
+    <value>Aantal UOB instanties</value>
+  </data>
+  <data name="RequestValidation_Progress" xml:space="preserve">
+    <value>Data verzamelen voor validatie aanvraag...</value>
+  </data>
+  <data name="RequestValidation_ProgressFinish" xml:space="preserve">
+    <value>Validatie aanvraag gereed. 
+Ga naar "Validatie &gt; Verwerken Validatie" voor een overzicht met daarin de status van alle validatie aanvragen.
+Verwerk vanuit dit overzicht de resultaten van de uitgevoerde validaties in het model.</value>
+  </data>
+  <data name="RequestValidation_Project" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="RequestValidation_Properties" xml:space="preserve">
+    <value>Eigenschappen</value>
+  </data>
+  <data name="RequestValidation_RequestDate" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="RequestValidation_ResultDifferences" xml:space="preserve">
+    <value>Alleen verschillen</value>
+  </data>
+  <data name="RequestValidation_ResultFull" xml:space="preserve">
+    <value>Volledig</value>
+  </data>
+  <data name="RequestValidation_ResultInCAD" xml:space="preserve">
+    <value>Rapportage in CAD</value>
+  </data>
+  <data name="RequestValidation_Selection" xml:space="preserve">
+    <value>Selectie</value>
+  </data>
+  <data name="RequestValidation_SelectionOptions" xml:space="preserve">
+    <value>Selectie opties</value>
+  </data>
+  <data name="RequestValidation_TicketNumber" xml:space="preserve">
+    <value>Ticketnummer</value>
+  </data>
+  <data name="RequestValidation_Title" xml:space="preserve">
+    <value>Valideren &gt; Aanvragen validatie</value>
+  </data>
+  <data name="RibbonButton_ValidateDescription" xml:space="preserve">
+    <value>Valideren</value>
+  </data>
+  <data name="RibbonButton_ValidateLongDescription" xml:space="preserve">
+    <value>Geeft toegang tot het aanvragen van validaties en het bekijken van validatie resultaten.</value>
+  </data>
+  <data name="RibbonButton_ValidateSubProcessValidationDescription" xml:space="preserve">
+    <value>Verwerken</value>
+  </data>
+  <data name="RibbonButton_ValidateSubProcessValidationTooltip" xml:space="preserve">
+    <value>Validatie resultaten verwerken in CAD.</value>
+  </data>
+  <data name="RibbonButton_ValidateSubRequestValidationDescription" xml:space="preserve">
+    <value>Aanvragen</value>
+  </data>
+  <data name="RibbonButton_ValidateSubRequestValidationTooltip" xml:space="preserve">
+    <value>Toevoegen van een nieuwe validatie aanvraag.</value>
+  </data>
+  <data name="RibbonButton_ValidateTooltip" xml:space="preserve">
+    <value>Toevoegen validatie aanvraag en bekijken van validatie resultaten.</value>
+  </data>
+  <data name="MessageBoxAddValidationRequestError_Text" xml:space="preserve">
+    <value>Validatie aanvraag is mislukt!</value>
+  </data>
+  <data name="MessageSelectFamilyInstancesToValidate" xml:space="preserve">
+    <value>Selecteer de instanties die u wilt valideren.</value>
+  </data>
+  <data name="ValidationProductStatus_0" xml:space="preserve">
+    <value>Niet gevalideerd</value>
+  </data>
+  <data name="ValidationProductStatus_1" xml:space="preserve">
+    <value>Verschil in structuur, product niet gecontroleerd</value>
+  </data>
+  <data name="ValidationProductStatus_10" xml:space="preserve">
+    <value>Structuur overeenkomend</value>
+  </data>
+  <data name="ValidationProductStatus_11" xml:space="preserve">
+    <value>Data overeenkomend</value>
+  </data>
+  <data name="ValidationProductStatus_2" xml:space="preserve">
+    <value>Verschil in data</value>
+  </data>
+  <data name="ValidationStatus_0" xml:space="preserve">
+    <value>Aangevraagd</value>
+  </data>
+  <data name="ValidationStatus_1" xml:space="preserve">
+    <value>In bewerking</value>
+  </data>
+  <data name="ValidationStatus_2" xml:space="preserve">
+    <value>Gereed</value>
+  </data>
+  <data name="ValidationStatus_3" xml:space="preserve">
+    <value>Mislukt</value>
+  </data>
+</root>
